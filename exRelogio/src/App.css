@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #99e60a;
+}
+
+button {
+  color: white;
+  font-weight: 600;
+  
+  height: 25px;
+  margin: 0 10px;
+  border: none;
+  opacity: 1;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.btn-parar {
+  background-color: rgb(209, 53, 53);
+}
+
+.btn-continuar {
+  background-color: rgb(67, 168, 67);
+}
